@@ -42,6 +42,8 @@ esbuild
     format: 'iife',
     loader: {
       '.png': 'dataurl',
+      '.jpg': 'dataurl',
+      '.jpeg': 'dataurl',
       '.svg': 'dataurl',
       '.ttf': 'dataurl',
       '.woff': 'dataurl',
