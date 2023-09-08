@@ -1,11 +1,15 @@
 title: FEDSIM
-email: contact@example.gov
-description: >- # this means to ignore newlines
-  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
+email: chris.hamm@gsa.gov
+description: >- # this means to ignore newlines until "baseurl:"
+  FEDSIM - FEDSIM is a Client Support Center within the General Service Administration's Office of Assisted Acquisition Services (AAS). 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fedsim.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
+
+# Configuration for Google Analytics, add your UA code here:
+google_analytics_ua: UA-87539202-2
 
 #################################################################
 #
@@ -38,11 +42,11 @@ twitter: 18F
 # USPS    - Postal Service
 # SBA     - Small Business Administration
 # SSA     - Social Security Administration
+ 
 #
 #################################################################
 dap:
-  # agency: your-agency
-
+agency: GSA
   # Optional
   # subagency: your-subagency
 
@@ -61,18 +65,26 @@ primary_navigation:
         url: /aboutus/
       - name: Our Leadership
         url: /leadership/
-  - name: Document
-    url: /document/
-  - name: Document with sidenav
-    url: /document-with-sidenav/
-  - name: Document submenu
+  - name: Our Work
+    url: /ourwork/
     children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+      - name: Our Work
+        url: /ourwork/
+      - name: CSO
+        url: /cso/
+  - name: Careers
+    url: /joinus/
+  - name: Getting Started
+    url: /gettingstarted/
+  - name: Industry
+    url: /industry/
+    children:
+      - name: Industry
+        url: /industry/
+      - name: FIAC
+        url: /fiac/
+  - name: Contact Us
+    url: /contact/
 
 #secondary_navigation:
 #  - name: Secondary link
@@ -86,18 +98,10 @@ primary_navigation:
 # 2. Add a new site.
 # 3. Add your site/affiliate name here.
 searchgov:
-
-  # Only change this if you're using a CNAME. Learn more here: https://search.gov/manual/cname.html
-  endpoint: https://search.usa.gov
-
-  # Replace this with your search.gov account.
-  affiliate: federalist-uswds-example
-
-  # Replace this with your access key.
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
-
-  # This renders the results within the page instead of sending to user to search.gov.
-  inline: true
+  endpoint: https://search.usa.gov # You should not change this.
+  affiliate: fedsim.gsa.gov # replace this with your search.gov account
+  access_key: UbkGQ5GkC_5XvV3aPH8WD36v6WPHS9ByTiyrj4EzgKM=
+  inline: true #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
 
   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
   # If you do not want to present search suggestions, set this value to false.

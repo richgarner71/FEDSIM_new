@@ -202,3 +202,4 @@ NOTES FROM RICH:
 + Added "config.addPassthroughCopy('css'); config.addPassthroughCopy('assets/img');" to .eleventy.js
 + Added "'.jpg': 'dataurl', '.jpeg': 'dataurl'," to config/buildAssets.js
 + Added "Logo_GSAFedsim.png" to _img for use in header
++ Removed double line breaks from html files
