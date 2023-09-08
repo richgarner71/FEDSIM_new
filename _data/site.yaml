@@ -54,8 +54,13 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: Blog
-    url: /blog/
+  - name: About Us
+    url: /aboutus/
+    children:
+      - name: About Us
+        url: /aboutus/
+      - name: Our Leadership
+        url: /leadership/
   - name: Document
     url: /document/
   - name: Document with sidenav
