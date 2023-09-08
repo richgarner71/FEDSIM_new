@@ -13,7 +13,7 @@
 
 
 html{
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 a{
@@ -411,7 +411,7 @@ a.external_link::after{
 .usa-hero{
   background-image: url(../assets/img/home.jpg)!important;
   height: 500px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .usa-hero__callout{
