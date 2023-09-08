@@ -197,6 +197,8 @@ This project is in the worldwide [public domain](LICENSE.md). As stated in [CONT
 
 
 NOTES FROM RICH:
++ compile with $ npx gulp compile
++ serve with $ npm run dev
 + Added "config.addPassthroughCopy('css'); config.addPassthroughCopy('assets/img');" to .eleventy.js
 + Added "'.jpg': 'dataurl', '.jpeg': 'dataurl'," to config/buildAssets.js
 + Added "Logo_GSAFedsim.png" to _img for use in header
