@@ -1,5 +1,5 @@
 ---
-title: Document
+title: Getting Started
 layout: layouts/wide
 permalink: /gettingstarted/
 sidenav: false

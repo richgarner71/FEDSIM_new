@@ -1,5 +1,5 @@
 ---
-title: Document
+title: About Us
 layout: layouts/wide
 permalink: /aboutus/
 sidenav: false

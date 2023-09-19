@@ -1,5 +1,5 @@
 ---
-title: Document
+title: FIAC
 layout: layouts/wide
 permalink: /fiac/
 sidenav: false

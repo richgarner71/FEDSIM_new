@@ -1,5 +1,5 @@
 ---
-title: Document
+title: CSO
 layout: layouts/wide
 permalink: /cso/
 sidenav: false

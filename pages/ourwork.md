@@ -1,5 +1,5 @@
 ---
-title: Document
+title: Our Work
 layout: layouts/wide
 permalink: /ourwork/
 sidenav: false
